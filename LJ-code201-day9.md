@@ -20,3 +20,7 @@ takes element out of flow
 Fixed:
 relative to the window
 out of flow
+
+Floats:
+tales the element out of flow and wraps the content near by around it.
+If there is no content after it, the containing element will collapse behind the floated objects. you can add content to fill the container or you can add an element that follow the floated and give it a property for clear, that clears the floats and restores normal flow;
